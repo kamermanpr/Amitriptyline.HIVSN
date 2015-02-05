@@ -107,6 +107,16 @@ Side effects reported when receiving amitriptyline or placebo
 * Ami.Drowsy: Reported feeling drowsy when receiving amitriptyline	
 * Ami.ChestPain: Reported experiencing chest pain (nonspecific) when receiving amitriptyline   
 
+### xover.BOCF.csv & xover.PP.csv
+Pain intensity data for the complete dataset (n = 124, baseline carried forward for participants with missing data), and the reduced dataset (n = 122, completed study per protocol)
+* ID: Participant code
+* ARV: On antiretroviral therapy
+* Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
+* Period: First (week 1-6) or second (week 9-15) period of treatment 
+* Treatment: P = Placebo, A = Amitriptyline
+* Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period   
+- - - 
+
   
  
 
