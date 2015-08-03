@@ -32,11 +32,196 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h1>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact:</h1>
+<a id="amitriptylinehivsn" class="anchor" href="#amitriptylinehivsn" aria-hidden="true"><span class="octicon octicon-link"></span></a>Amitriptyline.HIVSN</h1>
 
-<p>Peter Kamerman<br>
-School of Physiology,University of the Witwatersrand, South Africa<br>
-<a href="mailto:peter.kamerman@wits.ac.za">peter.kamerman@wits.ac.za</a></p>
+<p>Data from clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" (DOI 10.1186/ISRCTN54452526)</p>
+
+<hr>
+
+<p>All pain intensity data recorded on an 11-point numerical pain rating scale (0 = no pain, 10 = worst pain ever experienced)   </p>
+
+<hr>
+
+<h2>
+<a id="data-key" class="anchor" href="#data-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data key</h2>
+
+<h3>
+<a id="demographicscsv-na--missing-data" class="anchor" href="#demographicscsv-na--missing-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demographics.csv (NA = missing data)</h3>
+
+<p>Basic demographic information on the cohort at baseline</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>Age: Age in years</li>
+<li>Female: Self-declared female sex</li>
+<li>CD4: Latest CD4 T-cell count (cells/mm^3)<br>
+</li>
+<li>ART: Antiretroviral use (any regimen)</li>
+<li>D4T_ever: Ever used stavudine</li>
+<li>D4T_now: Currently using stavudine</li>
+<li>D4T_previously: Not currently using stavudine</li>
+<li>Education_&gt;9yrs: Nine years or greater of formal education<br>
+</li>
+<li>Employed: Any formal employment<br>
+</li>
+</ul>
+
+<h3>
+<a id="baselinecsv" class="anchor" href="#baselinecsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Baseline.csv</h3>
+
+<p>Baseline pain data</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>Period: First (week 1-6) or second (week 9-15) period of treatment </li>
+<li>Treatment: P = Placebo, A = Amitriptyline</li>
+<li>Pain: Pain intensity rating<br>
+</li>
+</ul>
+
+<h3>
+<a id="nntcsv" class="anchor" href="#nntcsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>NNT.csv</h3>
+
+<p>Number needed to treat data</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>Period: First (week 1-6) or second (week 9-15) period of treatment </li>
+<li>Treatment: P = Placebo, A = Amitriptyline</li>
+<li>Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period</li>
+<li>PercentDelta: Percentage change in pain intensity between week 1 and 6<br>
+</li>
+</ul>
+
+<h3>
+<a id="dosecsv" class="anchor" href="#dosecsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dose.csv</h3>
+
+<p>Maximum dose of drug/placebo during each treatment period</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>Period: First (week 1-6) or second (week 9-15) period of treatment </li>
+<li>Dose: Dose of amitriptyline or placebo (hypothetical dose based on number of placebo tables taken) (mg/day) </li>
+<li>Tablets: Number of tablets of amitriptyline (25mg/tablet) or placebo taken per day<br>
+</li>
+</ul>
+
+<h3>
+<a id="pain-changecsv" class="anchor" href="#pain-changecsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pain change.csv</h3>
+
+<p>Change in pain between the start and end each six-week trial period</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>DeltaPlacebo: Change in pain intensity rating when taking placebo</li>
+<li>DeltaAmi: Change in pain intensity rating when taking amitriptyline</li>
+<li>DeltaP.A: Difference in between DeltaAmi and DeltaPlacebo (negative numbers indicate greater pain relief on placebo compared to amitriptyline)<br>
+</li>
+</ul>
+
+<h3>
+<a id="paincsv" class="anchor" href="#paincsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pain.csv</h3>
+
+<p>Pain intensity ratings on week 1,3,and 6 of each treatment period</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>Period: First (week 1-6) or second (week 9-15) period of treatment </li>
+<li>Treatment: P = Placebo, A = Amitriptyline</li>
+<li>Week0/Week3/Week6: Pain intensity rating on week 1, 3 and 6 of each treatment period<br>
+</li>
+</ul>
+
+<h3>
+<a id="rescue-medscsv" class="anchor" href="#rescue-medscsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rescue meds.csv</h3>
+
+<p>Rescue medications taken when receiving placebo and amitriptyline</p>
+
+<ul>
+<li>ID: Participants code</li>
+<li>Placebo.taken: Rescue medication (any) taken when receiving placebo</li>
+<li>Placebo.para: Paracetamol taken when receiving placebo</li>
+<li>Placebo.nsaids: Non-steroidal anti-inflammatory drugs taken when receiving placebo</li>
+<li>Placebo.cod.para: Codeine and paracetamol combination taken when receiving placebo</li>
+<li>Placebo.caf.asa.para: Caffeine, aspirin and paracetamol taken when receiving placebo</li>
+<li>Ami.taken: Rescue medication (any) taken when receiving amitriptyline</li>
+<li>Ami.para: Paracetamol taken when receiving amitriptyline</li>
+<li>Ami.nsaids: Non-steroidal anti-inflammatory drugs taken when receiving amitriptyline</li>
+<li>Ami.cod.para: Codeine and paracetamol combination taken when receiving amitriptyline</li>
+<li>Ami.caf.asa.para: Caffeine, aspirin and paracetamol taken when receiving amitriptyline<br>
+</li>
+</ul>
+
+<h3>
+<a id="responderanalysiscsv" class="anchor" href="#responderanalysiscsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Responder.analysis.csv</h3>
+
+<p>Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment (&gt;50% pain relief compared to when taking placebo)</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>Responder: Classed as a respnder or non-responder to amitriptyline treatment</li>
+<li>ARV: On antiretroviral therapy (any)</li>
+<li>Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo</li>
+<li>Age: Age in years</li>
+<li>Female: Self-declared female sex</li>
+<li>CD4: Latest CD4 T-cell count (cells/mm^3)<br>
+</li>
+<li>D4T_ever: Ever used stavudine</li>
+<li>D4T_now: Currently using stavudine</li>
+<li>D4T_previously: Not currently using stavudine</li>
+<li>Education_&gt;9yrs: Nine years or greater of formal education<br>
+</li>
+<li>Employed: Any formal employment</li>
+<li>Burning: Pain reported as having burning quality</li>
+<li>Painful.cold: Pain reported as having cold quality</li>
+<li>Electric.shocks: Pain reported as have shock-like quality</li>
+<li>Tingling: Pain reported as having a tingling quality</li>
+<li>Pins.n.needles: Pain reported to feel like pins-and-needles</li>
+<li>Numbness: Pain associated with numbness</li>
+<li>Itching: Pain associated with itching sensation</li>
+<li>Touch.hypoesthesia: Reduced/absent touch sensation of light touch</li>
+<li>Pin.prick.hypoesthesia: Reduced/absent ability to distinguish sharp and blunt stimuli</li>
+<li>Brush.allodynia: Hypersensitivity to brushing the skin gently<br>
+</li>
+</ul>
+
+<h3>
+<a id="side-effectscv" class="anchor" href="#side-effectscv" aria-hidden="true"><span class="octicon octicon-link"></span></a>Side effects.cv</h3>
+
+<p>Side effects reported when receiving amitriptyline or placebo</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>Placebo.DryMouth: Reported having a dry mouth when receiving placebo</li>
+<li>Placebo.Drowsy: Reported feeling drowsy when receiving placebo</li>
+<li>Placebo.ChestPain: Reported experiencing chest pain (nonspecific) when receiving placebo</li>
+<li>Ami.DryMouth: Reported having a dry mouth when receiving amitriptyline<br>
+</li>
+<li>Ami.Drowsy: Reported feeling drowsy when receiving amitriptyline<br>
+</li>
+<li>Ami.ChestPain: Reported experiencing chest pain (nonspecific) when receiving amitriptyline<br>
+</li>
+</ul>
+
+<h3>
+<a id="xoverbocfcsv--xoverppcsv" class="anchor" href="#xoverbocfcsv--xoverppcsv" aria-hidden="true"><span class="octicon octicon-link"></span></a>xover.BOCF.csv &amp; xover.PP.csv</h3>
+
+<p>Pain intensity data for the complete dataset (n = 124, baseline carried forward for participants with missing data), and the reduced dataset (n = 122, completed study per protocol)</p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo</li>
+<li>Period: First (week 1-6) or second (week 9-15) period of treatment </li>
+<li>Treatment: P = Placebo, A = Amitriptyline</li>
+<li>Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period<br>
+- - - </li>
+</ul>
       </section>
     </div>
 
@@ -44,7 +229,7 @@ School of Physiology,University of the Witwatersrand, South Africa<br>
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         <p class="copyright">Amitriptyline for painful HIV-SN maintained by <a href="https://github.com/kamermanpr">kamermanpr</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
