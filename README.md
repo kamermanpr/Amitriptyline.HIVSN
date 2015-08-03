@@ -1,5 +1,5 @@
 # Amitriptyline.HIVSN
-Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" (DOI 10.1186/ISRCTN54452526)
+Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" ([Trial registry #: ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))
 
 ---
 ## Bibliographic information
