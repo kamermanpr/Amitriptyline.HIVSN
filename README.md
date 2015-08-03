@@ -59,37 +59,37 @@ Primary and secondary outcomes were measured at baseline, three and six weeks fo
 #### Target number of participants
 124
 
-Participant inclusion criteria
+#### Participant inclusion criteria  
 1. Confirmed and documented HIV positive status, either on Arv therapy or not on ARV therapy  
 2. Diagnosed with moderate to severe peripheral neuropathy using the BPNS and DN4 screening tools and scoring >/= 4 on an 11 point Likert scale visual analogue scale  
 3. Age above 18 on the date of recruitment  
 4. Ability to mentally and physically understand to make informed choice to participate in the study  
 
-Participant exclusion criteria
+#### Participant exclusion criteria
 All conditions which are likely to cause confounding will be excluded from the study, together with 
-conditions which are likely to cause drug interactions. 
-1. Severe pain from DSN caused by ARV drugs which warrants a change in regime
-2. Already taking amitriptyline drug, or has taken the drugs at least three weeks prior
-3. Limb amputation
-4. Kaposi sarcoma of the lower limbs
-5. Current post-herpetic neuralgia or herpes zoster
-6. Pregnancy or intention to fall pregnant 
-7. TB treatment
-8. Malignancy not related to HIV
-9. Major psychiatric disorders including mania or epilepsy
-10. Clinically significant renal failure
-11. Diabetic neuropathy
-12. Clinically significant liver failure or past history as defined by encephalopathy, oedema and jaundice
-13. Patient in extreme pain or exhausted
-14. Participating on another trial or study
-15. MAOI, other tricyclic antidepressants or anti-epileptic drugs
-16. Recent myocardial infarction, arrhythmias, heart block
-17. History of urinary retention, urinary hesitancy or closed angle glaucoma
+conditions which are likely to cause drug interactions.  
+1. Severe pain from DSN caused by ARV drugs which warrants a change in regime  
+2. Already taking amitriptyline drug, or has taken the drugs at least three weeks prior  
+3. Limb amputation  
+4. Kaposi sarcoma of the lower limbs  
+5. Current post-herpetic neuralgia or herpes zoster  
+6. Pregnancy or intention to fall pregnant   
+7. TB treatment  
+8. Malignancy not related to HIV  
+9. Major psychiatric disorders including mania or epilepsy  
+10. Clinically significant renal failure  
+11. Diabetic neuropathy  
+12. Clinically significant liver failure or past history as defined by encephalopathy, oedema and jaundice  
+13. Patient in extreme pain or exhausted  
+14. Participating on another trial or study  
+15. MAOI, other tricyclic antidepressants or anti-epileptic drugs  
+16. Recent myocardial infarction, arrhythmias, heart block  
+17. History of urinary retention, urinary hesitancy or closed angle glaucoma  
 
 #### Funding organisation
 Diana Princess of Wales Memorial Fund (UK)
----
 
+---
 ## Data Key  
 ### General
 * Pain intensity was measured on an 11-point numerical rating scale *(0 = 'no pain', 10 = 'worst pain ever experienced')*  
