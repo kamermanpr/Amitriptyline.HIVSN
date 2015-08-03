@@ -1,7 +1,7 @@
-##Table of Contents
+# Table of Contents
 *Generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Amitriptyline.HIVSN](#amitriptyline-.-hivsn)
+- [Amitriptyline.HIVSN](#amitriptyline.hivsn)
 	- [Bibliographic Information](#bibliographic-information)
 	- [Overview](#overview)
 		- [Plain English Summary](#plain-english-summary)
@@ -16,7 +16,7 @@
 			- [Condition](#condition)
 			- [Intervention](#intervention)
 			- [Primary outcome measure](#primary-outcome-measure)
-			- [Secondary outcome measures (not reported here)](#secondary-outcome-measures--not-reported-here)
+			- [Secondary outcome measures (not reported here)](#secondary-outcome-measures-not-reported-here)
 			- [Trial start and end date](#trial-start-and-end-date)
 			- [Target number of participants](#target-number-of-participants)
 			- [Participant inclusion criteria](#participant_inclusion-criteria)
@@ -34,6 +34,7 @@
 		- [File: Responder.analysis.csv](#)
 		- [File: Side effects.cv](#)
 		- [Files: xover.BOCF.csv & xover.PP.csv](#)
+
 ---
 # Amitriptyline.HIVSN
 Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" *([Trial registry #: ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*  
