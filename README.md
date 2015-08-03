@@ -2,10 +2,10 @@
 *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [Amitriptyline.HIVSN](#)
-	- [Bibliographic Information](#Bibliographic-Information)
+	- [Bibliographic Information](#bibliographic-information)
 	- [Overview](#)
 		- [Plain English Summary](#)
-			- [Background and study aims](#Background-and-study-aims)
+			- [Background and study aims](#background-and-study-aims)
 			- [Who participated?](#)
 			- [What did the study involve?](#)
 			- [Where was the study run from?](#)
