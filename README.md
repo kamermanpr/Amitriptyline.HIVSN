@@ -1,10 +1,11 @@
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+##Table of Contents
+*generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [Amitriptyline.HIVSN](#)
-	- [Bibliographic Information](#)
+	- [Bibliographic Information](#Bibliographic-Information)
 	- [Overview](#)
 		- [Plain English Summary](#)
-			- [Background and study aims](#)
+			- [Background and study aims](#Background-and-study-aims)
 			- [Who participated?](#)
 			- [What did the study involve?](#)
 			- [Where was the study run from?](#)
