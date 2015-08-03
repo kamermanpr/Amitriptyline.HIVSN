@@ -1,5 +1,5 @@
-**Table of Contents**  
-*generated with [DocToc](http://doctoc.herokuapp.com/)*
+# Table of Contents  
+*Generated with [DocToc](http://doctoc.herokuapp.com/)*
 
 - [Amitriptyline.HIVSN](#)
 	- [Bibliographic Information](#)
