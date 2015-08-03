@@ -1,5 +1,15 @@
 # Amitriptyline.HIVSN
-Data from clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" (DOI 10.1186/ISRCTN54452526)
+Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" (DOI 10.1186/ISRCTN54452526)
+
+---
+## Bibliographic information
+Dinat N, Marinda E, Moch S, Rice AS, Kamerman PR. Randomized, Double-Blind,
+Crossover Trial of Amitriptyline for Analgesia in Painful HIV-Associated Sensory 
+Neuropathy. **PLoS One** *10*(5):e0126297.  
+*DOI:*
+[10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)  
+*PubMed PMID:* [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)  
+GHAT
 - - - 
 All pain intensity data recorded on an 11-point numerical pain rating scale (0 = no pain, 10 = worst pain ever experienced)   
 - - - 
@@ -114,8 +124,7 @@ Pain intensity data for the complete dataset (n = 124, baseline carried forward 
 * Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
 * Treatment: P = Placebo, A = Amitriptyline
-* Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period   
-- - - 
+* Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period
 
   
  
