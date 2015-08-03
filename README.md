@@ -11,11 +11,14 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 *PubMed PMID:* [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)  
 
 - - - 
-All pain intensity data recorded on an 11-point numerical pain rating scale (0 = no pain, 10 = worst pain ever experienced)   
+All pain intensity data recorded on an 11-point numerical pain rating scale (0 = no pain, 10 = worst pain ever experienced).  
+
+**'NA'** = missing data  
+
 - - - 
 ## Data key  
-### Demographics.csv (NA = missing data)
-Basic demographic information on the cohort at baseline
+### Demographics.csv
+Baseline demographic data
 * ID: Participant code
 * Age: Age in years
 * Female: Self-declared female sex
@@ -36,7 +39,7 @@ Baseline pain data
 * Pain: Pain intensity rating     
 
 ### NNT.csv
-Number needed to treat data
+Number-needed-to-treat (NNT) data
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
@@ -45,7 +48,7 @@ Number needed to treat data
 * PercentDelta: Percentage change in pain intensity between week 1 and 6   
 
 ### Dose.csv
-Maximum dose of drug/placebo during each treatment period
+Maximum titration dose of drug/placebo achieved during each treatment period
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
@@ -53,7 +56,7 @@ Maximum dose of drug/placebo during each treatment period
 * Tablets: Number of tablets of amitriptyline (25mg/tablet) or placebo taken per day   
 
 ### Pain change.csv
-Change in pain between the start and end each six-week trial period
+Change in pain intensity between the start and end of each six-week trial period
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * DeltaPlacebo: Change in pain intensity rating when taking placebo
@@ -83,7 +86,7 @@ Rescue medications taken when receiving placebo and amitriptyline
 * Ami.caf.asa.para: Caffeine, aspirin and paracetamol taken when receiving amitriptyline   
 
 ### Responder.analysis.csv
-Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment (>50% pain relief compared to when taking placebo)
+Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo)*
 * ID: Participant code
 * Responder: Classed as a respnder or non-responder to amitriptyline treatment
 * ARV: On antiretroviral therapy (any)
@@ -108,7 +111,7 @@ Demographic and phenotypic characteristics of responders and non-responders to a
 * Brush.allodynia: Hypersensitivity to brushing the skin gently   
 
 ### Side effects.cv
-Side effects reported when receiving amitriptyline or placebo
+Side effects reported for amitriptyline and placebo
 * ID: Participant code
 * Placebo.DryMouth: Reported having a dry mouth when receiving placebo
 * Placebo.Drowsy: Reported feeling drowsy when receiving placebo
@@ -118,17 +121,10 @@ Side effects reported when receiving amitriptyline or placebo
 * Ami.ChestPain: Reported experiencing chest pain (nonspecific) when receiving amitriptyline   
 
 ### xover.BOCF.csv & xover.PP.csv
-Pain intensity data for the complete dataset (n = 124, baseline carried forward for participants with missing data), and the reduced dataset (n = 122, completed study per protocol)
+Pain intensity data for the complete dataset [n = 124, baseline observation carried forward (BOCF) used to interpolate missing data), and the reduced dataset [n = 122, completed study per protocol (PP)]
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
 * Treatment: P = Placebo, A = Amitriptyline
 * Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period
-
-  
- 
-
-
-  
- 
