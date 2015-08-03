@@ -158,17 +158,7 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### File: Demographics.csv
 [[Table of Contents]](#table-of-contents) 
-[Data: Demographics.csv](/DataFiles/Demographics.csv)
-[Data: Baseline.csv](/DataFiles/Baseline.csv)
-[Data: NNT.csv](/DataFiles/NNT.csv)
-[Data: Dose.csv](/DataFiles/Dose.csv)
-[Data: Pain change.csv](/DataFiles/Pain change.csv)
-[Data: Pain.csv](/DataFiles/Pain.csv)
-[Data: Rescue meds.csv](/DataFiles/Rescue meds.csv)
-[Data: Responder.analysis.csv](/DataFiles/ResponderAnalysiscsv)
-[Data: Side effects.csv](/DataFiles/side-effectscsv)
-[Data: xover.BOCF.csv & xover.PP.csv](/DataFiles/xover-bocfcsv---xover-ppcsv)
-
+[Data: Demographics.csv](/DataFiles/Demographics.csv)  
 Baseline demographic data
 * ID: Participant code
 * Age: Age in years
@@ -182,7 +172,8 @@ Baseline demographic data
 * Employed: Any formal employment     
 
 ### File: Baseline.csv
-[[Table of Contents]](#table-of-contents)  
+[[Table of Contents]](#table-of-contents) 
+[Data: Baseline.csv](/DataFiles/Baseline.csv)  
 Baseline pain data
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -191,7 +182,8 @@ Baseline pain data
 * Pain: Pain intensity rating     
 
 ### File: NNT.csv
-[[Table of Contents]](#table-of-contents)  
+[[Table of Contents]](#table-of-contents) 
+[Data: NNT.csv](/DataFiles/NNT.csv)    
 Number-needed-to-treat (NNT) data
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -201,7 +193,8 @@ Number-needed-to-treat (NNT) data
 * PercentDelta: Percentage change in pain intensity between week 1 and 6   
 
 ### File: Dose.csv
-[[Table of Contents]](#table-of-contents)  
+[[Table of Contents]](#table-of-contents) 
+[Data: Dose.csv](/DataFiles/Dose.csv)  
 Maximum titration dose of drug/placebo achieved during each treatment period
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -209,8 +202,9 @@ Maximum titration dose of drug/placebo achieved during each treatment period
 * Dose: Dose of amitriptyline or placebo (hypothetical dose based on number of placebo tables taken) (mg/day) 
 * Tablets: Number of tablets of amitriptyline (25mg/tablet) or placebo taken per day   
 
-### File: Pain change.csv
+### File: PainChange.csv
 [[Table of Contents]](#table-of-contents)  
+[Data: PainChange.csv](/DataFiles/PainChange.csv)  
 Change in pain intensity between the start and end of each six-week trial period
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -219,7 +213,8 @@ Change in pain intensity between the start and end of each six-week trial period
 * DeltaP.A: Difference in between DeltaAmi and DeltaPlacebo (negative numbers indicate greater pain relief on placebo compared to amitriptyline)   
 
 ### File: Pain.csv
-[[Table of Contents]](#table-of-contents)  
+[[Table of Contents]](#table-of-contents) 
+[Data: Pain.csv](/DataFiles/Pain.csv)  
 Pain intensity ratings on week 1,3,and 6 of each treatment period
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -227,8 +222,9 @@ Pain intensity ratings on week 1,3,and 6 of each treatment period
 * Treatment: P = Placebo, A = Amitriptyline
 * Week0/Week3/Week6: Pain intensity rating on week 1, 3 and 6 of each treatment period   
 
-### File: Rescue meds.csv
+### File: RescueMeds.csv
 [[Table of Contents]](#table-of-contents)  
+[Data: RescueMeds.csv](/DataFiles/RescueMeds.csv)  
 Rescue medications taken when receiving placebo and amitriptyline
 * ID: Participants code
 * Placebo.taken: Rescue medication (any) taken when receiving placebo
@@ -242,8 +238,9 @@ Rescue medications taken when receiving placebo and amitriptyline
 * Ami.cod.para: Codeine and paracetamol combination taken when receiving amitriptyline
 * Ami.caf.asa.para: Caffeine, aspirin and paracetamol taken when receiving amitriptyline   
 
-### File: Responder.analysis.csv
-[[Table of Contents]](#table-of-contents)  
+### File: ResponderAnalysis.csv
+[[Table of Contents]](#table-of-contents) 
+[Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysiscsv)   
 Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo)*
 * ID: Participant code
 * Responder: Classed as a respnder or non-responder to amitriptyline treatment
@@ -255,7 +252,7 @@ Demographic and phenotypic characteristics of responders and non-responders to a
 * D4T_ever: Ever used stavudine
 * D4T_now: Currently using stavudine
 * D4T_previously: Not currently using stavudine
-* Education_>9yrs: Nine years or greater of formal education	
+* Education_>9yrs: Nine years or greater of formal education
 * Employed: Any formal employment
 * Burning: Pain reported as having burning quality
 * Painful.cold: Pain reported as having cold quality
@@ -268,8 +265,9 @@ Demographic and phenotypic characteristics of responders and non-responders to a
 * Pin.prick.hypoesthesia: Reduced/absent ability to distinguish sharp and blunt stimuli
 * Brush.allodynia: Hypersensitivity to brushing the skin gently   
 
-### File: Side effects.csv
+### File: SideEffects.csv
 [[Table of Contents]](#table-of-contents)  
+[Data: SideEffects.csv](/DataFiles/SideEffectscsv)  
 Side effects reported for amitriptyline and placebo
 * ID: Participant code
 * Placebo.DryMouth: Reported having a dry mouth when receiving placebo
@@ -281,6 +279,8 @@ Side effects reported for amitriptyline and placebo
 
 ### Files: xover.BOCF.csv & xover.PP.csv
 [[Table of Contents]](#table-of-contents)  
+[Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv)  
+[Data: xoverPP.csv](/DataFiles/xoverPP.csv)    
 Pain intensity data for the complete dataset [n = 124, baseline observation carried forward (BOCF) used to interpolate missing data), and the reduced dataset [n = 122, completed study per protocol (PP)]
 * ID: Participant code
 * ARV: On antiretroviral therapy
