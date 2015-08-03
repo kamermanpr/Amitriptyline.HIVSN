@@ -42,7 +42,7 @@ Placebo-controlled double-blind crossover group randomised controlled trial
 Pharmacological management of painful neuropathy
 
 #### Intervention
-All study participants will receive amitriptyline (titrated to efficacy, side effects or a maximum dose of 150 mg daily) or inert placebo in random order for 6 weeks, with a three-week washout period between interventions.
+All study participants received amitriptyline (titrated to efficacy, side effects or a maximum dose of 150 mg daily) or inert placebo in random order for 6 weeks, with a three-week washout period between interventions.
 
 #### Primary outcome measures
 Self-reported pain intensity, assessed on an 11-point numerical pain rating scale.
@@ -51,7 +51,7 @@ Self-reported pain intensity, assessed on an 11-point numerical pain rating scal
 1. Pain interference on activities of daily living, assessed using the pain interference sub-scale of the Brief Pain Inventory 
 2. Physical symptoms, psychological, emotional and spiritual, and information and support needs, assessed using the African Palliative Care Outcomes Scale (APOS)
 
-Primary and secondary outcomes were measured at baseline, three and six weeks for each of the two intervention periods. Across the duration of the study, that represents measurements at 0, 3, 6, 9, 12, and 15 weeks on each participant.
+Primary and secondary outcomes was measured at baseline, three and six weeks for each of the two intervention periods. Across the duration of the study, that represents measurements at 0, 3, 6, 9, 12, and 15 weeks on each participant.
 
 #### Trial start and end date
 01/04/2009 - 30/04/2010
@@ -60,8 +60,8 @@ Primary and secondary outcomes were measured at baseline, three and six weeks fo
 124
 
 #### Participant inclusion criteria  
-1. Confirmed and documented HIV positive status, either on Arv therapy or not on ARV therapy  
-2. Diagnosed with moderate to severe peripheral neuropathy using the BPNS and DN4 screening tools and scoring >/= 4 on an 11 point Likert scale visual analogue scale  
+1. Confirmed and documented HIV positive status, either on antiretroviral drug (ARV) therapy or not on ARV therapy  
+2. Diagnosed with moderate to severe peripheral neuropathy using the Brief Neuropathy Screen (BPNS) on an 11 point Likert scale visual analogue scale  
 3. Age above 18 on the date of recruitment  
 4. Ability to mentally and physically understand to make informed choice to participate in the study  
 
