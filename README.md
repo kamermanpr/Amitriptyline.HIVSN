@@ -1,17 +1,17 @@
 # Amitriptyline.HIVSN
-Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" ([Trial registry #: ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))
+Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" *([Trial registry #: ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*
 
 ---
 ## Bibliographic information
 Dinat N, Marinda E, Moch S, Rice AS, Kamerman PR. Randomized, Double-Blind,
 Crossover Trial of Amitriptyline for Analgesia in Painful HIV-Associated Sensory 
 Neuropathy. **PLoS One** *10*(5):e0126297.  
-*DOI:*
-[10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)  
-*PubMed PMID:* [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)  
+*DOI:
+[10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)*  
+*PubMed PMID:* [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)*  
 
 - - - 
-All pain intensity data recorded on an 11-point numerical pain rating scale (0 = no pain, 10 = worst pain ever experienced).  
+All pain intensity data recorded on an 11-point numerical pain rating scale *(0 = no pain, 10 = worst pain ever experienced)*.  
 
 **'NA'** = missing data  
 
@@ -22,7 +22,7 @@ Baseline demographic data
 * ID: Participant code
 * Age: Age in years
 * Female: Self-declared female sex
-* CD4: Latest CD4 T-cell count (cells/mm^3)  
+* CD4: Latest CD4 T-cell count (cells/mm^3^)  
 * ART: Antiretroviral use (any regimen)
 * D4T_ever: Ever used stavudine
 * D4T_now: Currently using stavudine
@@ -93,7 +93,7 @@ Demographic and phenotypic characteristics of responders and non-responders to a
 * Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
 * Age: Age in years
 * Female: Self-declared female sex
-* CD4: Latest CD4 T-cell count (cells/mm^3)  
+* CD4: Latest CD4 T-cell count (cells/mm^3^)  
 * D4T_ever: Ever used stavudine
 * D4T_now: Currently using stavudine
 * D4T_previously: Not currently using stavudine
