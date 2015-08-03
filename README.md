@@ -24,9 +24,9 @@
 			- [Funding organisation](#funding-organisation)
 	- [Data Key](#)
 		- [General](#general)
-		- [File: Demographics.csv](#demographics-csv)
-		- [File: Baseline.csv](#baseline-csv)
-		- [File: NNT.csv](#nnt-csv)
+		- [File: Demographics.csv](#demographics.csv)
+		- [File: Baseline.csv](#baseline-.-csv)
+		- [File: NNT.csv](#nnt--csv)
 		- [File: Dose.csv](#dose-csv)
 		- [File: Pain change.csv](#pain-change-csv)
 		- [File: Pain.csv](#pain-csv)
@@ -53,7 +53,7 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 --- 
 ## Overview
 [Table of Contents](#table-of-contents)  
-*NOTE: Information copied from the trial registry *([ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*
+*NOTE: Information derived from the trial registry *([ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*
 
 ### Plain English Summary
 [Table of Contents](#table-of-contents) 
