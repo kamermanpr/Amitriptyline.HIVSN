@@ -1,7 +1,7 @@
 # Table of Contents
 *Generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Amitriptyline.HIVSN](#amitriptyline-hivsn)
+- [Amitriptyline.HIVSN](#amitriptylinehivsn)
 	- [Bibliographic Information](#bibliographic-information)
 	- [Overview](#overview)
 		- [Plain English Summary](#plain-english-summary)
@@ -24,9 +24,9 @@
 			- [Funding organisation](#funding-organisation)
 	- [Data Key](#)
 		- [General](#general)
-		- [File: Demographics.csv](#file--demographics.csv)
-		- [File: Baseline.csv](#file--baseline-.-csv)
-		- [File: NNT.csv](#file--nnt--csv)
+		- [File: Demographics.csv](#file-demographicscsv)
+		- [File: Baseline.csv](#file-baseline.csv)
+		- [File: NNT.csv](#file-nnt-csv)
 		- [File: Dose.csv](#dose-csv)
 		- [File: Pain change.csv](#pain-change-csv)
 		- [File: Pain.csv](#pain-csv)
