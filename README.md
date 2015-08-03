@@ -31,9 +31,9 @@
 		- [File: Pain change.csv](#file-pain-changecsv)
 		- [File: Pain.csv](#file-paincsv)
 		- [File: Rescue meds.csv](#file-rescue-medscsv)
-		- [File: Responder.analysis.csv](#file-responder-analysiscsv)
-		- [File: Side effects.cv](#file-side-effectscsv)
-		- [Files: xover.BOCF.csv & xover.PP.csv](#file-xover-bocfcsv--xover-ppcsv)
+		- [File: Responder.analysis.csv](#file-responderanalysiscsv)
+		- [File: Side effects.csv](#file-side-effectscsv)
+		- [Files: xover.BOCF.csv & xover.PP.csv](#file-xover-bocfcsv---xover-ppcsv)
 
 ---
 # Amitriptyline.HIVSN
@@ -257,7 +257,7 @@ Demographic and phenotypic characteristics of responders and non-responders to a
 * Pin.prick.hypoesthesia: Reduced/absent ability to distinguish sharp and blunt stimuli
 * Brush.allodynia: Hypersensitivity to brushing the skin gently   
 
-### File: Side effects.cv
+### File: Side effects.csv
 [Table of Contents](#table-of-contents) 
 Side effects reported for amitriptyline and placebo
 * ID: Participant code
