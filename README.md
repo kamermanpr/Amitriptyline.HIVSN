@@ -157,7 +157,18 @@ Diana Princess of Wales Memorial Fund (UK)
 * *'NA'* = missing data  
 
 ### File: Demographics.csv
-[[Table of Contents]](#table-of-contents)  
+[[Table of Contents]](#table-of-contents) 
+[Data: Demographics.csv](/DataFiles/Demographics.csv)
+[Data: Baseline.csv](/DataFiles/baselinecsv)
+[Data: NNT.csv](/DataFiles/nntcsv)
+[Data: Dose.csv](/DataFiles/dosecsv)
+[Data: Pain change.csv](/DataFiles/pain-changecsv)
+[Data: Pain.csv](/DataFiles/paincsv)
+[Data: Rescue meds.csv](/DataFiles/rescue-medscsv)
+[Data: Responder.analysis.csv](/DataFiles/responderanalysiscsv)
+[Data: Side effects.csv](/DataFiles/side-effectscsv)
+[Data: xover.BOCF.csv & xover.PP.csv](/DataFiles/xover-bocfcsv---xover-ppcsv)
+
 Baseline demographic data
 * ID: Participant code
 * Age: Age in years
