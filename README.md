@@ -56,8 +56,6 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 *NOTE: Information derived from the trial registry *([ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*
 
 ### Plain English Summary
-[[Table of Contents]](#table-of-contents)  
-
 #### Background and study aims 
 [[Table of Contents]](#table-of-contents)  
 The peripheral nervous system is part of the nervous system that is made up of the nerves and ganglia (group of nerve cells) outside of the brain and spinal cord (the central nervous system). It connects the central nervous system to the limbs and organs of the body. Damage to peripheral nerves, especially the long nerves of the feet and hands, is common in people infected with HIV. This damage may be caused by the virus itself, some of the antiretrioviral drugs used to treat HIV/AIDS, or as a result of opportunistic infections, for example thrush, herpes and tuberculosis. The nerve damage is often painful, can have a detrimental effect on a person's quality of life and has significant socioeconomic effects. Unlike other types of peripheral neuropathy (e.g., the neuropathy that develops in people with diabetes mellitus), there are, as yet, no effective treatments for painful HIV neuropathy. Here, we want to see if amitriptyline, an antidepressant drug that has been shown to relieve pain in other types of neuropathy, can provide pain relief better than that of a placebo (a dummy pill) in patients with painful HIV neuropathy. 
@@ -152,10 +150,9 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ---
 ## Data Key 
-[[Table of Contents]](#table-of-contents)  
-
 ### General
 [[Table of Contents]](#table-of-contents)  
+* All data files can be found in [DataFiles](/DataFiles)
 * Pain intensity was measured on an 11-point numerical rating scale *(0 = 'no pain', 10 = 'worst pain ever experienced')*  
 * *'NA'* = missing data  
 
