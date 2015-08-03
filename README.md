@@ -9,7 +9,7 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 *DOI:*
 [10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)  
 *PubMed PMID:* [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)  
-GHAT
+
 - - - 
 All pain intensity data recorded on an 11-point numerical pain rating scale (0 = no pain, 10 = worst pain ever experienced)   
 - - - 
