@@ -1,7 +1,7 @@
 # Table of Contents
 *Generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Amitriptyline.HIVSN](#amitriptyline.hivsn)
+- [Amitriptyline.HIVSN](#amitriptyline-hivsn)
 	- [Bibliographic Information](#bibliographic-information)
 	- [Overview](#overview)
 		- [Plain English Summary](#plain-english-summary)
@@ -37,10 +37,12 @@
 
 ---
 # Amitriptyline.HIVSN
+[Table of Contents](#table-of-contents)  
 Data from a clinical trial "To determine the effectiveness of amitriptyline compared to placebo in the management of moderate to severe HIV related peripheral neuropathy" *([Trial registry #: ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*  
 
 ---
 ## Bibliographic Information
+[Table of Contents](#table-of-contents)  
 Dinat N, Marinda E, Moch S, Rice AS, Kamerman PR. Randomized, Double-Blind,
 Crossover Trial of Amitriptyline for Analgesia in Painful HIV-Associated Sensory 
 Neuropathy. **PLoS One** *10*(5):e0126297.  
@@ -50,6 +52,7 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 
 --- 
 ## Overview
+[Table of Contents](#table-of-contents)  
 *NOTE: Information copied from the trial registry *([ISRCTN54452526](http://www.isrctn.com/ISRCTN54452526))*
 
 ### Plain English Summary
