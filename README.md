@@ -24,7 +24,6 @@
 			- [Funding organisation](#funding-organisation)
 	- [Data Analysis](#dataanalysis)
 		- [General](#general)
-		- [R citations](#rcitations)
 		- [Baseline demographic data](#baseline-demographics-data)
 		- [Baseline pain](baseline-pain)
 		- [Number-needed-to-treat](#numberneededtotreat)
@@ -35,6 +34,8 @@
 		- [Responder analysis](#responder-analysis)
 		- [Side effects](#side-effects)
 		- [Baseline observation carried forward & per protocol analysis](#baseline-observation-carried-forward-per-protocol-analysis)
+    - [R citations](#rcitations)
+
 
 ---
 ## Amitriptyline HIV-SN
@@ -140,36 +141,6 @@ Diana Princess of Wales Memorial Fund (UK)
 * All *R* analysis scripts can be found in [RScripts](/RScripts)  
 * Pain intensity was measured on an 11-point numerical rating scale *(0 = 'no pain', 10 = 'worst pain ever experienced')*  
 * *'NA'* = missing data  
-
-### R citations
-**R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"**  
-R Core Team. R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing, 2014 Available: http://www.R-project.org/.
-
-**Package: _Beeswarm_**  
-Eklund A. Beeswarm: The bee swarm plot, an alternative to stripchart. 2015 Available: http://CRAN.R-project.org/package=beeswarm.
-
-**Package: _Dae_**  
-Brien. C. Dae: Functions useful in the design and aNOVA of experiments. 2015 Available: http://CRAN.R-project.org/package=dae.
-
-**Package: _exact2x2_**  
-Fay MP. Confidence intervals that match fisher's exact or blaker's exact tests. Biostatistics 2010;11:373-374. Available: http://www3.niaid.nih.gov/about/organization/dcr/BRB/staff/michael.htm.
-
-Fay MP. Two-sided exact tests and matching confidence intervals for discrete data. R Journal 2010;2:53-58. Available: http://journal.r-project.org/.
-
-**Package: _exactci_**  
-Fay MP. Two-sided exact tests and matching confidence intervals for discrete data. R Journal 2010;2:53-58. Available: http://journal.r-project.org/.
-
-**Package: _exactRankTests_**  
-Hothorn T, Hornik K. ExactRankTests: Exact distributions for rank and permutation tests. 2015 Available: http://CRAN.R-project.org/package=exactRankTests.
-
-**Package: _curl_**  
-Ooms J. Curl: A modern and flexible web client for r. 2015 Available: http://CRAN.R-project.org/package=curl.
-
-**Package: _lattice_**  
-Sarkar D. Lattice: Multivariate data visualization with r. New York: Springer, 2008 Available: http://lmdvr.r-forge.r-project.org.
-
-**Package: _plyr_**  
-Wickham H. The split-apply-combine strategy for data analysis. Journal of Statistical Software 2011;40:1???29. Available: http://www.jstatsoft.org/v40/i01/.
 
 ### Demographics
 **Characterisation of participants' demographic data at the time of recruitment.**
@@ -317,5 +288,37 @@ Wickham H. The split-apply-combine strategy for data analysis. Journal of Statis
 * Itching: Pain associated with itching sensation
 * Touch.hypoesthesia: Reduced/absent touch sensation of light touch
 * Pin.prick.hypoesthesia: Reduced/absent ability to distinguish sharp and blunt stimuli  
-* Brush.allodynia: Hypersensitivity to brushing the skin gently   
+* Brush.allodynia: Hypersensitivity to brushing the skin gently  
+
+---
+## R citations
+**R version 3.0.1 (2013-05-17) -- "Good Sport"**  
+R Core Team. R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing, 2013 Available: http://www.R-project.org/.
+
+**Package: _Beeswarm_**  
+Eklund A. Beeswarm: The bee swarm plot, an alternative to stripchart. 2015 Available: http://CRAN.R-project.org/package=beeswarm.
+
+**Package: _Dae_**  
+Brien C. Dae: Functions useful in the design and aNOVA of experiments. 2015 Available: http://CRAN.R-project.org/package=dae.
+
+**Package: _exact2x2_**  
+Fay MP. Confidence intervals that match fisher's exact or blaker's exact tests. Biostatistics 2010;11:373-374. Available: http://www3.niaid.nih.gov/about/organization/dcr/BRB/staff/michael.htm.
+
+Fay MP. Two-sided exact tests and matching confidence intervals for discrete data. R Journal 2010;2:53-58. Available: http://journal.r-project.org/.
+
+**Package: _exactci_**  
+Fay MP. Two-sided exact tests and matching confidence intervals for discrete data. R Journal 2010;2:53-58. Available: http://journal.r-project.org/.
+
+**Package: _exactRankTests_**  
+Hothorn T, Hornik K. ExactRankTests: Exact distributions for rank and permutation tests. 2015 Available: http://CRAN.R-project.org/package=exactRankTests.
+
+**Package: _curl_**  
+Ooms J. Curl: A modern and flexible web client for r. 2015 Available: http://CRAN.R-project.org/package=curl.
+
+**Package: _lattice_**  
+Sarkar D. Lattice: Multivariate data visualization with r. New York: Springer, 2008 Available: http://lmdvr.r-forge.r-project.org.
+
+**Package: _plyr_**  
+Wickham H. The split-apply-combine strategy for data analysis. Journal of Statistical Software 2011;40:1-29. Available: http://www.jstatsoft.org/v40/i01/.
+
 
