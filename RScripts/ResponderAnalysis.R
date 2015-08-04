@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-res.1<-data.frame(read.csv("Pain.xover.responder.csv", header=T))
+# setwd()
+library(curl)
+res.1<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/ResponderAnalysis.csv"), header=T))
 str(res.1)
 # Convert NAs in no-ARV to "No"
 res.1$D4T.ever[is.na(res.1$D4T.ever)]<-"No"

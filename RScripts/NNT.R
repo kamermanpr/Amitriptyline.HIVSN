@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-nnt0<-read.csv("Pain NNT.csv", header=T)
+# setwd()
+library(curl)
+nnt0<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/NNT.csv"), header=T))
 str(nnt0)
 nnt0[c(5:7)]<-lapply(nnt0[c(5:7)], as.numeric)
 nnt0[3]<-lapply(nnt0[3], as.factor)

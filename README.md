@@ -186,9 +186,9 @@ Diana Princess of Wales Memorial Fund (UK)
 [Data: PainChange.csv](/DataFiles/PainChange.csv)  
 * ID: Participant code
 * ARV: On antiretroviral therapy
-* DeltaPlacebo: Change in pain intensity rating when taking placebo
-* DeltaAmi: Change in pain intensity rating when taking amitriptyline
-* DeltaP.A: Difference in between DeltaAmi and DeltaPlacebo (negative numbers indicate greater pain relief on placebo compared to amitriptyline)   
+* Delta.P: Change in pain intensity rating when taking placebo
+* Delta.Ami: Change in pain intensity rating when taking amitriptyline
+* Delta: Difference in between Delta.Ami and Delta.P (negative numbers indicate greater pain relief on placebo compared to amitriptyline)   
 
 ### Absolute pain intensity
 **Pain intensity ratings on week 1,3,and 6 of each treatment period**

@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-dose<-data.frame(read.csv("dose.csv", header=T, sep=","))
+# setwd()
+library(curl)
+dose<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/Dose.csv"), header=T))
 str(dose)
 dose[,"Period"]<-factor(dose$Period, levels=c(1,2))
 str(dose)

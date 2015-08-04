@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-base<-data.frame(read.csv("Pain baselines.csv", header=T, sep=","))
+# setwd()
+library(curl)
+base<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/Baselines.csv"), header=T))
 str(base)
 base[,"Period"]<-factor(base$Period, levels=c(1,2))
 str(base)

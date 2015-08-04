@@ -1,7 +1,8 @@
 # Delta.P and Delta.Ami are change in pain score between week 1(9) and week 6(15) for placebo and ami interventions, respectively
 # Delta is (Delta.Ami - Delta.P) 
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-dpain0<-read.csv("Pain change2.csv", header=T)
+# setwd()
+library(curl)
+dpain0<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/PainChange.csv"), header=T))
 str(dpain0)
 dpain0[c(3:5)]<-lapply(dpain0[c(3:5)], as.numeric)
 str(dpain0)

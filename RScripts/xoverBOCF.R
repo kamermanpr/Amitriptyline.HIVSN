@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-xpain0<-read.csv("Pain xover.BOCF.csv", header=T)
+# setwd()
+library(curl)
+xpain0<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/xoverBOCF.csv"), header=T))
 xpain0[c(6:8)]<-lapply(xpain0[c(6:8)], as.numeric)
 xpain0[4]<-lapply(xpain0[4], as.factor)
 str(xpain0)

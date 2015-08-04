@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses & papers/Natalya - Amitriptyline 2013")
-data<-read.csv("Pain.dose.csv")
+# setwd()
+library(curl)
+data<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/PainDoseReg.csv"), header=T))
 str(data)
 data$PercentPainChange<-100*(data$PainChange/data$T1)
 data.2<-subset(data, data$Treatment=="A") # subset amitriptyline data

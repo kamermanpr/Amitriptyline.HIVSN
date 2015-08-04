@@ -1,5 +1,6 @@
-setwd("/Users/kamermanpr/Dropbox/00 My Documents/Analyses/Natalya - Amitriptyline 2013")
-demo<-data.frame(read.csv("demographics.csv", header=T, sep=","))
+# setwd()
+library(curl)
+demo<-data.frame(read.csv(curl("https://raw.github.com/kamermanpr/Amitriptyline.HIVSN/blob/master/DataFiles/Demographics.csv"), header=T))
 str(demo)
 dim(demo)
 demo
