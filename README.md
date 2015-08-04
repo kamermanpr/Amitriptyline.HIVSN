@@ -22,8 +22,9 @@
 			- [Participant inclusion criteria](#participant_inclusion-criteria)
 			- [Participant exclusion criteria](#participant-exclusion-criteria)
 			- [Funding organisation](#funding-organisation)
-	- [Data Key](#datakey)
+	- [Data Analysis](#dataanalysis)
 		- [General](#general)
+		- [R citations](#rcitations)
 		- [Baseline demographic data](#baseline-demographics-data)
 		- [Baseline pain](baseline-pain)
 		- [Number-needed-to-treat](#numberneededtotreat)
@@ -107,8 +108,8 @@ Primary and secondary outcomes was measured at baseline, three and six weeks for
 4. Ability to mentally and physically understand to make informed choice to participate in the study  
 
 ### Participant exclusion criteria
-All conditions which are likely to cause confounding will be excluded from the study, together with 
-conditions which are likely to cause drug interactions.  
+All conditions which are likely to cause confounding will be excluded from the study, together with conditions which are likely to cause drug interactions. 
+ 
 1. Severe pain from DSN caused by ARV drugs which warrants a change in regime  
 2. Already taking amitriptyline drug, or has taken the drugs at least three weeks prior  
 3. Limb amputation  
@@ -131,7 +132,7 @@ conditions which are likely to cause drug interactions.
 Diana Princess of Wales Memorial Fund (UK)
 
 ---
-## Data Key
+## Data Analysis
 [[Table of Contents]](#table-of-contents)
  
 ### General     
@@ -140,9 +141,41 @@ Diana Princess of Wales Memorial Fund (UK)
 * Pain intensity was measured on an 11-point numerical rating scale *(0 = 'no pain', 10 = 'worst pain ever experienced')*  
 * *'NA'* = missing data  
 
+### R citations
+**R version 3.1.2 (2014-10-31) -- "Pumpkin Helmet"**  
+R Core Team. R: A language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing, 2014 Available: http://www.R-project.org/.
+
+**Package: _Beeswarm_**  
+Eklund A. Beeswarm: The bee swarm plot, an alternative to stripchart. 2015 Available: http://CRAN.R-project.org/package=beeswarm.
+
+**Package: _Dae_**  
+Brien. C. Dae: Functions useful in the design and aNOVA of experiments. 2015 Available: http://CRAN.R-project.org/package=dae.
+
+**Package: _exact2x2_**  
+Fay MP. Confidence intervals that match fisher's exact or blaker's exact tests. Biostatistics 2010;11:373-374. Available: http://www3.niaid.nih.gov/about/organization/dcr/BRB/staff/michael.htm.
+
+Fay MP. Two-sided exact tests and matching confidence intervals for discrete data. R Journal 2010;2:53-58. Available: http://journal.r-project.org/.
+
+**Package: _exactci_**  
+Fay MP. Two-sided exact tests and matching confidence intervals for discrete data. R Journal 2010;2:53-58. Available: http://journal.r-project.org/.
+
+**Package: _exactRankTests_**  
+Hothorn T, Hornik K. ExactRankTests: Exact distributions for rank and permutation tests. 2015 Available: http://CRAN.R-project.org/package=exactRankTests.
+
+**Package: _curl_**  
+Ooms J. Curl: A modern and flexible web client for r. 2015 Available: http://CRAN.R-project.org/package=curl.
+
+**Package: _lattice_**  
+Sarkar D. Lattice: Multivariate data visualization with r. New York: Springer, 2008 Available: http://lmdvr.r-forge.r-project.org.
+
+**Package: _plyr_**  
+Wickham H. The split-apply-combine strategy for data analysis. Journal of Statistical Software 2011;40:1???29. Available: http://www.jstatsoft.org/v40/i01/.
+
 ### Demographics
 **Characterisation of participants' demographic data at the time of recruitment.**
-[Data: Demographics.csv](/DataFiles/Demographics.csv)  
+[Data: Demographics.csv](/DataFiles/Demographics.csv) 
+[Analysis: Demographics.R](/RSript/Demographics.R)  
+
 * ID: Participant code
 * Age: Age in years
 * Female: Self-declared female sex
@@ -156,8 +189,9 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Baseline pain
 **Characterisation of participants' pain at at the start of each treatment period.**
-[Data: Baseline.csv](/DataFiles/Baseline.csv)
+[Data: Baseline.csv](/DataFiles/Baseline.csv)  
 [Analysis: Baseline.R](/RSript/Baseline.R)  
+
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
@@ -166,7 +200,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### PP pain data
 **Per protocol (PP) cohort's pain intensity data (n = 122).**  
-[Data: xoverPP.csv](/DataFiles/xoverPP.csv)    
+[Data: xoverPP.csv](/DataFiles/xoverPP.csv) 
+   
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
@@ -176,7 +211,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### BOCF pain data
 **Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).**
-[Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv)     
+[Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv) 
+    
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
@@ -186,7 +222,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Parallel group 
 **Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.**
-[Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv)     
+[Data: Parallel.csv](/DataFiles/Parallel.csv)  
+   
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Order: Order of treatment - PA = Placebo then Amitriptyline, AP = Amitriptyline then Placebo
@@ -198,7 +235,8 @@ Diana Princess of Wales Memorial Fund (UK)
 ### NNT
 **Number needed to treat (NNT) to achieve at least 50% pain relief. Used data from all participants in period 1 and data from period 2 for participants who started week 9 (baseline for period 2) with at least moderate pain.**
 [Data: NNT.csv](/DataFiles/NNT.csv)
-[Analysis: NNT.R](/RScript/NNT.R)     
+[Analysis: NNT.R](/RScript/NNT.R)  
+   
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
@@ -209,6 +247,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Dose titration
 **Maximum titration dose of drug/placebo achieved during each treatment period.**
 [Data: Dose.csv](/DataFiles/Dose.csv)  
+
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
@@ -218,6 +257,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Change in pain intensity
 **Change in pain intensity between the start and end of each six-week trial period.**
 [Data: PainChange.csv](/DataFiles/PainChange.csv)  
+
 * ID: Participant code
 * ARV: On antiretroviral therapy
 * Delta.P: Change in pain intensity rating when taking placebo
@@ -227,6 +267,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Rescue medications
 **Characterisation of the rescue analgesics taken by participants during each treatment period.**
 [Data: RescueMeds.csv](/DataFiles/RescueMeds.csv)  
+
 * ID: Participants code
 * Placebo.taken: Rescue medication (any) taken when receiving placebo
 * Placebo.para: Paracetamol taken when receiving placebo
@@ -242,6 +283,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Side effects
 **Characterisation of side-effects reported by participants while on drug or placebo.**
 [Data: SideEffects.csv](/DataFiles/SideEffectscsv)  
+
 * ID: Participant code
 * Placebo.DryMouth: Reported having a dry mouth when receiving placebo
 * Placebo.Drowsy: Reported feeling drowsy when receiving placebo
@@ -253,6 +295,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Responder analysis
 **Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo).***
 [Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysiscsv)   
+
 * ID: Participant code
 * Responder: Classed as a respnder or non-responder to amitriptyline treatment
 * ARV: On antiretroviral therapy (any)
