@@ -162,7 +162,7 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Baseline pain
 **Characterisation of participants' pain at at the start of each treatment period.**
-[Data: Baseline.csv](/DataFiles/Baseline.csv)  
+[Data: Baseline.csv](/DataFiles/Baselines.csv)  
 [Analysis: Baseline.R](/RScripts/Baseline.R)  
 
 * ID: Participant code
