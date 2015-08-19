@@ -145,8 +145,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * *'NA'* = missing data  
 
 ### Demographics
-**Characterisation of participants' demographic data at the time of recruitment.**
-[Data: Demographics.csv](/DataFiles/Demographics.csv) 
+**Characterisation of participants' demographic data at the time of recruitment.**  
+[Data: Demographics.csv](/DataFiles/Demographics.csv)   
 [Analysis: Demographics.R](/RScripts/Demographics.R)  
 
 * ID: Participant code
@@ -161,8 +161,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Employed: Any formal employment     
 
 ### Baseline pain
-**Characterisation of participants' pain at at the start of each treatment period.**
-[Data: Baseline.csv](/DataFiles/Baselines.csv)  
+**Characterisation of participants' pain at at the start of each treatment period.**  
+[Data: Baseline.csv](/DataFiles/Baselines.csv)   
 [Analysis: Baseline.R](/RScripts/Baseline.R)  
 
 * ID: Participant code
@@ -173,7 +173,7 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### PP pain data
 **Per protocol (PP) cohort's pain intensity data (n = 122).**  
-[Data: xoverPP.csv](/DataFiles/xoverPP.csv) 
+[Data: xoverPP.csv](/DataFiles/xoverPP.csv)  
 [Analysis: xoverPP.R](/RScripts/xoverPP.R)
    
 * ID: Participant code
@@ -184,8 +184,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period
 
 ### BOCF pain data
-**Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).**
-[Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv) 
+**Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).**  
+[Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv)   
 [Analysis: xoverBOCF.R](/RScripts/xoverBOCF.R)
     
 * ID: Participant code
@@ -196,8 +196,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Time1/Time2/Time3: Pain intensity rating on week 1, 3 and 6 of each treatment period
 
 ### Parallel group 
-**Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.**
-[Data: Parallel.csv](/DataFiles/Parallel.csv) 
+**Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.**   
+[Data: Parallel.csv](/DataFiles/Parallel.csv)   
 [Analysis: Parallel.R](/RScripts/Parallel.R) 
    
 * ID: Participant code
@@ -209,8 +209,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 
 ### NNT
-**Number needed to treat (NNT) to achieve at least 50% pain relief. Used data from all participants in period 1 and data from period 2 for participants who started week 9 (baseline for period 2) with at least moderate pain.**
-[Data: NNT.csv](/DataFiles/NNT.csv)
+**Number needed to treat (NNT) to achieve at least 50% pain relief. Used data from all participants in period 1 and data from period 2 for participants who started week 9 (baseline for period 2) with at least moderate pain.**  
+[Data: NNT.csv](/DataFiles/NNT.csv)  
 [Analysis: NNT.R](/RScripts/NNT.R)  
    
 * ID: Participant code
@@ -221,8 +221,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * PercentDelta: Percentage change in pain intensity between week 1 and 6   
 
 ### Dose titration
-**Maximum titration dose of drug/placebo achieved during each treatment period.**
-[Data: Dose.csv](/DataFiles/Dose.csv)  
+**Maximum titration dose of drug/placebo achieved during each treatment period.**  
+[Data: Dose.csv](/DataFiles/Dose.csv)    
 [Analysis: Dose.R](/RScripts/Dose.R)
 
 * ID: Participant code
@@ -232,8 +232,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Tablets: Number of tablets of amitriptyline (25mg/tablet) or placebo taken per day   
 
 ### Change in pain intensity
-**Change in pain intensity between the start and end of each six-week trial period.**
-[Data: PainChange.csv](/DataFiles/PainChange.csv) 
+**Change in pain intensity between the start and end of each six-week trial period.**  
+[Data: PainChange.csv](/DataFiles/PainChange.csv)   
 [Analysis: PainChange.R](/RScripts/PainChange.R) 
 
 * ID: Participant code
@@ -243,8 +243,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Delta: Difference in between Delta.Ami and Delta.P (negative numbers indicate greater pain relief on placebo compared to amitriptyline)   
 
 ### Rescue medications
-**Characterisation of the rescue analgesics taken by participants during each treatment period.**
-[Data: RescueMeds.csv](/DataFiles/RescueMeds.csv) 
+**Characterisation of the rescue analgesics taken by participants during each treatment period.**  
+[Data: RescueMeds.csv](/DataFiles/RescueMeds.csv)   
 [Analysis: RescueMeds.R](/RScripts/RescueMeds.R) 
 
 * ID: Participants code
@@ -260,8 +260,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Ami.caf.asa.para: Caffeine, aspirin and paracetamol taken when receiving amitriptyline 
 
 ### Side effects
-**Characterisation of side-effects reported by participants while on drug or placebo.**
-[Data: SideEffects.csv](/DataFiles/SideEffectscsv) 
+**Characterisation of side-effects reported by participants while on drug or placebo.**  
+[Data: SideEffects.csv](/DataFiles/SideEffectscsv)   
 [Analysis: SideEffects.R](/RScripts/SideEffects.R) 
 
 * ID: Participant code
@@ -273,8 +273,8 @@ Diana Princess of Wales Memorial Fund (UK)
 * Ami.ChestPain: Reported experiencing chest pain (nonspecific) when receiving amitriptyline     
 
 ### Responder analysis
-**Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo).***
-[Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysis.csv)
+**Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo).**  
+[Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysis.csv)  
 [Analysis: ResponderAnalysis.R](/RScripts/ResponderAnalysis.R)   
 
 * ID: Participant code
