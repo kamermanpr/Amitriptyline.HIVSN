@@ -24,16 +24,18 @@
 			- [Funding organisation](#funding-organisation)
 	- [Data Analysis](#dataanalysis)
 		- [General](#general)
-		- [Baseline demographic data](#baseline-demographics-data)
-		- [Baseline pain](baseline-pain)
-		- [Number-needed-to-treat](#numberneededtotreat)
+		- [Demographics](#demographics)
+		- [Baseline pain](#baseline-pain)
+		- [Per protocol (PP) cohort analysis](#pp-pain-data)	
+		- [Baseline observation carried forward (BOCF) analysis](#bocf-pain-data)
+		- [Parallel group analysis](#parallel-group)
+		- [Number-needed-to-treat (NNT)](#nnt)
 		- [Dose titration](#dose-titration)
 		- [Change in pain intensity](#change-in-pain-intensity)
-		- [Absolute pain intensity](#absolute-pain-intensity)
 		- [Rescue medications](#rescue-medications)
-		- [Responder analysis](#responder-analysis)
 		- [Side effects](#side-effects)
-		- [Baseline observation carried forward & per protocol analysis](#baseline-observation-carried-forward-per-protocol-analysis)
+		- [Responder analysis](#responder-analysis)
+	
     - [R citations](#rcitations)
 
 
@@ -172,6 +174,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### PP pain data
 **Per protocol (PP) cohort's pain intensity data (n = 122).**  
 [Data: xoverPP.csv](/DataFiles/xoverPP.csv) 
+[Analysis: xoverPP.R](/RSript/xoverPP.R)
    
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -183,6 +186,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### BOCF pain data
 **Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).**
 [Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv) 
+[Analysis: xoverBOCF.R](/RSript/xoverBOCF.R)
     
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -193,7 +197,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Parallel group 
 **Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.**
-[Data: Parallel.csv](/DataFiles/Parallel.csv)  
+[Data: Parallel.csv](/DataFiles/Parallel.csv) 
+[Analysis: Parallel.R](/RSript/Parallel.R) 
    
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -218,6 +223,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Dose titration
 **Maximum titration dose of drug/placebo achieved during each treatment period.**
 [Data: Dose.csv](/DataFiles/Dose.csv)  
+[Analysis: Dose.R](/RSript/Dose.R)
 
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -227,7 +233,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Change in pain intensity
 **Change in pain intensity between the start and end of each six-week trial period.**
-[Data: PainChange.csv](/DataFiles/PainChange.csv)  
+[Data: PainChange.csv](/DataFiles/PainChange.csv) 
+[Analysis: PainChange.R](/RSript/PainChange.R) 
 
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -237,7 +244,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Rescue medications
 **Characterisation of the rescue analgesics taken by participants during each treatment period.**
-[Data: RescueMeds.csv](/DataFiles/RescueMeds.csv)  
+[Data: RescueMeds.csv](/DataFiles/RescueMeds.csv) 
+[Analysis: RescueMeds.R](/RSript/RescueMeds.R) 
 
 * ID: Participants code
 * Placebo.taken: Rescue medication (any) taken when receiving placebo
@@ -253,7 +261,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Side effects
 **Characterisation of side-effects reported by participants while on drug or placebo.**
-[Data: SideEffects.csv](/DataFiles/SideEffectscsv)  
+[Data: SideEffects.csv](/DataFiles/SideEffectscsv) 
+[Analysis: SideEffects.R](/RSript/SideEffects.R) 
 
 * ID: Participant code
 * Placebo.DryMouth: Reported having a dry mouth when receiving placebo
@@ -265,7 +274,8 @@ Diana Princess of Wales Memorial Fund (UK)
 
 ### Responder analysis
 **Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo).***
-[Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysiscsv)   
+[Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysis.csv)
+[Analysis: ResponderAnalysis.R](/RSript/ResponderAnalysis.R)   
 
 * ID: Participant code
 * Responder: Classed as a respnder or non-responder to amitriptyline treatment
@@ -320,5 +330,3 @@ Sarkar D. Lattice: Multivariate data visualization with r. New York: Springer, 2
 
 **Package: _plyr_**  
 Wickham H. The split-apply-combine strategy for data analysis. Journal of Statistical Software 2011;40:1-29. Available: http://www.jstatsoft.org/v40/i01/.
-
-
