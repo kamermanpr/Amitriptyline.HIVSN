@@ -147,7 +147,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Demographics
 **Characterisation of participants' demographic data at the time of recruitment.**
 [Data: Demographics.csv](/DataFiles/Demographics.csv) 
-[Analysis: Demographics.R](/RSript/Demographics.R)  
+[Analysis: Demographics.R](/RScripts/Demographics.R)  
 
 * ID: Participant code
 * Age: Age in years
@@ -163,7 +163,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Baseline pain
 **Characterisation of participants' pain at at the start of each treatment period.**
 [Data: Baseline.csv](/DataFiles/Baseline.csv)  
-[Analysis: Baseline.R](/RSript/Baseline.R)  
+[Analysis: Baseline.R](/RScripts/Baseline.R)  
 
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -174,7 +174,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### PP pain data
 **Per protocol (PP) cohort's pain intensity data (n = 122).**  
 [Data: xoverPP.csv](/DataFiles/xoverPP.csv) 
-[Analysis: xoverPP.R](/RSript/xoverPP.R)
+[Analysis: xoverPP.R](/RScripts/xoverPP.R)
    
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -186,7 +186,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### BOCF pain data
 **Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).**
 [Data: xoverBOCF.csv](/DataFiles/xoverBOCF.csv) 
-[Analysis: xoverBOCF.R](/RSript/xoverBOCF.R)
+[Analysis: xoverBOCF.R](/RScripts/xoverBOCF.R)
     
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -198,7 +198,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Parallel group 
 **Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.**
 [Data: Parallel.csv](/DataFiles/Parallel.csv) 
-[Analysis: Parallel.R](/RSript/Parallel.R) 
+[Analysis: Parallel.R](/RScripts/Parallel.R) 
    
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -211,7 +211,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### NNT
 **Number needed to treat (NNT) to achieve at least 50% pain relief. Used data from all participants in period 1 and data from period 2 for participants who started week 9 (baseline for period 2) with at least moderate pain.**
 [Data: NNT.csv](/DataFiles/NNT.csv)
-[Analysis: NNT.R](/RScript/NNT.R)  
+[Analysis: NNT.R](/RScripts/NNT.R)  
    
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -223,7 +223,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Dose titration
 **Maximum titration dose of drug/placebo achieved during each treatment period.**
 [Data: Dose.csv](/DataFiles/Dose.csv)  
-[Analysis: Dose.R](/RSript/Dose.R)
+[Analysis: Dose.R](/RScripts/Dose.R)
 
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -234,7 +234,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Change in pain intensity
 **Change in pain intensity between the start and end of each six-week trial period.**
 [Data: PainChange.csv](/DataFiles/PainChange.csv) 
-[Analysis: PainChange.R](/RSript/PainChange.R) 
+[Analysis: PainChange.R](/RScripts/PainChange.R) 
 
 * ID: Participant code
 * ARV: On antiretroviral therapy
@@ -245,7 +245,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Rescue medications
 **Characterisation of the rescue analgesics taken by participants during each treatment period.**
 [Data: RescueMeds.csv](/DataFiles/RescueMeds.csv) 
-[Analysis: RescueMeds.R](/RSript/RescueMeds.R) 
+[Analysis: RescueMeds.R](/RScripts/RescueMeds.R) 
 
 * ID: Participants code
 * Placebo.taken: Rescue medication (any) taken when receiving placebo
@@ -262,7 +262,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Side effects
 **Characterisation of side-effects reported by participants while on drug or placebo.**
 [Data: SideEffects.csv](/DataFiles/SideEffectscsv) 
-[Analysis: SideEffects.R](/RSript/SideEffects.R) 
+[Analysis: SideEffects.R](/RScripts/SideEffects.R) 
 
 * ID: Participant code
 * Placebo.DryMouth: Reported having a dry mouth when receiving placebo
@@ -275,7 +275,7 @@ Diana Princess of Wales Memorial Fund (UK)
 ### Responder analysis
 **Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(>50% pain relief compared to when taking placebo).***
 [Data: ResponderAnalysis.csv](/DataFiles/ResponderAnalysis.csv)
-[Analysis: ResponderAnalysis.R](/RSript/ResponderAnalysis.R)   
+[Analysis: ResponderAnalysis.R](/RScripts/ResponderAnalysis.R)   
 
 * ID: Participant code
 * Responder: Classed as a respnder or non-responder to amitriptyline treatment
