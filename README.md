@@ -3,6 +3,7 @@
 
 - [Amitriptyline HIV-SN](#amitriptyline-hivsn)
 	- [Bibliographic Information](#bibliographic-information)
+	- [License](#license)
 	- [Overview](#overview)
 		- [Plain English Summary](#plain-english-summary)
 			- [Background and study aims](#background-and-study-aims)
@@ -56,6 +57,10 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 *PubMed PMID: [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)*  
 
 --- 
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Amitriptyline.HIVSN</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://kamermanpr.github.io/Amitriptyline.HIVSN" property="cc:attributionName" rel="cc:attributionURL">Peter Kamerman</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/kamermanpr/Amitriptyline.HIVSN" rel="dct:source">https://github.com/kamermanpr/Amitriptyline.HIVSN</a>.  
+
+---
 ## Plain English Summary
 [[Table of Contents]](#table-of-contents)  
 
