@@ -31,6 +31,7 @@
 		- [Parallel group analysis](#parallel-group)
 		- [Number-needed-to-treat (NNT)](#nnt)
 		- [Dose titration](#dose-titration)
+		- [Dose-response](#doseresponse-analysis)
 		- [Change in pain intensity](#change-in-pain-intensity)
 		- [Rescue medications](#rescue-medications)
 		- [Side effects](#side-effects)
@@ -230,6 +231,20 @@ Diana Princess of Wales Memorial Fund (UK)
 * Period: First (week 1-6) or second (week 9-15) period of treatment 
 * Dose: Dose of amitriptyline or placebo (hypothetical dose based on number of placebo tables taken) (mg/day) 
 * Tablets: Number of tablets of amitriptyline (25mg/tablet) or placebo taken per day   
+
+### Dose-response analysis
+**Relationship between drug dose and pain relief.**  
+[Data: PainDoseReg.csv](/DataFiles/PainDoseReg.csv)  
+[Analysis: PainDoseReg.R](/RScripts/PainDoseReg.R)  
+   
+* ID: Participant code
+* ARV: On antiretroviral therapy
+* Order: 
+* Period: First (week 1-6) or second (week 9-15) period of treatment 
+* Treatment: P = Placebo, A = Amitriptyline
+* T1/T2/T3: Pain intensity rating on week 1, 3 and 6 of each treatment period
+* PainChange: Change in pain intensity between week 1 and 6 of each treatment period
+* Dose: Maximum drug titration dose
 
 ### Change in pain intensity
 **Change in pain intensity between the start and end of each six-week trial period.**  
