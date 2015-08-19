@@ -38,7 +38,7 @@
 
 <ul>
 <li>
-<a href="#amitriptyline-hivsn">Amitriptyline HIV-SN</a>
+<p><a href="#amitriptyline-hivsn">Amitriptyline HIV-SN</a></p>
 
 <ul>
 <li><a href="#bibliographic-information">Bibliographic Information</a></li>
@@ -77,23 +77,27 @@
 </ul>
 </li>
 <li>
-<a href="#dataanalysis">Data Analysis</a>
+<p><a href="#dataanalysis">Data Analysis</a></p>
 
 <ul>
 <li><a href="#general">General</a></li>
-<li><a href="#baseline-demographics-data">Baseline demographic data</a></li>
-<li><a href="baseline-pain">Baseline pain</a></li>
-<li><a href="#numberneededtotreat">Number-needed-to-treat</a></li>
+<li><a href="#demographics">Demographics</a></li>
+<li><a href="#baseline-pain">Baseline pain</a></li>
+<li>
+<a href="#pp-pain-data">Per protocol (PP) cohort analysis</a><br>
+</li>
+<li><a href="#bocf-pain-data">Baseline observation carried forward (BOCF) analysis</a></li>
+<li><a href="#parallel-group">Parallel group analysis</a></li>
+<li><a href="#nnt">Number-needed-to-treat (NNT)</a></li>
 <li><a href="#dose-titration">Dose titration</a></li>
+<li><a href="#dose-response-analysis">Dose-response</a></li>
 <li><a href="#change-in-pain-intensity">Change in pain intensity</a></li>
-<li><a href="#absolute-pain-intensity">Absolute pain intensity</a></li>
 <li><a href="#rescue-medications">Rescue medications</a></li>
-<li><a href="#responder-analysis">Responder analysis</a></li>
 <li><a href="#side-effects">Side effects</a></li>
-<li><a href="#baseline-observation-carried-forward-per-protocol-analysis">Baseline observation carried forward &amp; per protocol analysis</a></li>
+<li><a href="#responder-analysis">Responder analysis</a></li>
 </ul>
 </li>
-<li><a href="#rcitations">R citations</a></li>
+<li><p><a href="#rcitations">R citations</a></p></li>
 </ul>
 </li>
 </ul>
@@ -289,9 +293,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="demographics" class="anchor" href="#demographics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demographics</h3>
 
-<p><strong>Characterisation of participants' demographic data at the time of recruitment.</strong>
-<a href="/DataFiles/Demographics.csv">Data: Demographics.csv</a> 
-<a href="/RSript/Demographics.R">Analysis: Demographics.R</a>  </p>
+<p><strong>Characterisation of participants' demographic data at the time of recruitment.</strong><br>
+<a href="/DataFiles/Demographics.csv">Data: Demographics.csv</a><br>
+<a href="/RScripts/Demographics.R">Analysis: Demographics.R</a>  </p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -311,9 +315,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="baseline-pain" class="anchor" href="#baseline-pain" aria-hidden="true"><span class="octicon octicon-link"></span></a>Baseline pain</h3>
 
-<p><strong>Characterisation of participants' pain at at the start of each treatment period.</strong>
-<a href="/DataFiles/Baseline.csv">Data: Baseline.csv</a><br>
-<a href="/RSript/Baseline.R">Analysis: Baseline.R</a>  </p>
+<p><strong>Characterisation of participants' pain at at the start of each treatment period.</strong><br>
+<a href="/DataFiles/Baselines.csv">Data: Baseline.csv</a><br>
+<a href="/RScripts/Baseline.R">Analysis: Baseline.R</a>  </p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -328,7 +332,8 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <a id="pp-pain-data" class="anchor" href="#pp-pain-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>PP pain data</h3>
 
 <p><strong>Per protocol (PP) cohort's pain intensity data (n = 122).</strong><br>
-<a href="/DataFiles/xoverPP.csv">Data: xoverPP.csv</a> </p>
+<a href="/DataFiles/xoverPP.csv">Data: xoverPP.csv</a><br>
+<a href="/RScripts/xoverPP.R">Analysis: xoverPP.R</a></p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -342,8 +347,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="bocf-pain-data" class="anchor" href="#bocf-pain-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>BOCF pain data</h3>
 
-<p><strong>Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).</strong>
-<a href="/DataFiles/xoverBOCF.csv">Data: xoverBOCF.csv</a> </p>
+<p><strong>Baseline observation carried forward (BOCF) cohort's pain intensity data (n = 124).</strong><br>
+<a href="/DataFiles/xoverBOCF.csv">Data: xoverBOCF.csv</a><br>
+<a href="/RScripts/xoverBOCF.R">Analysis: xoverBOCF.R</a></p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -357,8 +363,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="parallel-group" class="anchor" href="#parallel-group" aria-hidden="true"><span class="octicon octicon-link"></span></a>Parallel group</h3>
 
-<p><strong>Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.</strong>
-<a href="/DataFiles/Parallel.csv">Data: Parallel.csv</a>  </p>
+<p><strong>Analysis of the first treatment period only of the per protocol cohort (ignoring ART exposure) as a parallel group study to mitigate the carry-over effect observed in the x-over design.</strong><br>
+<a href="/DataFiles/Parallel.csv">Data: Parallel.csv</a><br>
+<a href="/RScripts/Parallel.R">Analysis: Parallel.R</a> </p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -372,9 +379,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="nnt" class="anchor" href="#nnt" aria-hidden="true"><span class="octicon octicon-link"></span></a>NNT</h3>
 
-<p><strong>Number needed to treat (NNT) to achieve at least 50% pain relief. Used data from all participants in period 1 and data from period 2 for participants who started week 9 (baseline for period 2) with at least moderate pain.</strong>
-<a href="/DataFiles/NNT.csv">Data: NNT.csv</a>
-<a href="/RScript/NNT.R">Analysis: NNT.R</a>  </p>
+<p><strong>Number needed to treat (NNT) to achieve at least 50% pain relief. Used data from all participants in period 1 and data from period 2 for participants who started week 9 (baseline for period 2) with at least moderate pain.</strong><br>
+<a href="/DataFiles/NNT.csv">Data: NNT.csv</a><br>
+<a href="/RScripts/NNT.R">Analysis: NNT.R</a>  </p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -389,8 +396,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="dose-titration" class="anchor" href="#dose-titration" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dose titration</h3>
 
-<p><strong>Maximum titration dose of drug/placebo achieved during each treatment period.</strong>
-<a href="/DataFiles/Dose.csv">Data: Dose.csv</a>  </p>
+<p><strong>Maximum titration dose of drug/placebo achieved during each treatment period.</strong><br>
+<a href="/DataFiles/Dose.csv">Data: Dose.csv</a><br>
+<a href="/RScripts/Dose.R">Analysis: Dose.R</a></p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -402,10 +410,29 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 </ul>
 
 <h3>
+<a id="dose-response-analysis" class="anchor" href="#dose-response-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dose-response analysis</h3>
+
+<p><strong>Relationship between drug dose and pain relief.</strong><br>
+<a href="/DataFiles/PainDoseReg.csv">Data: PainDoseReg.csv</a><br>
+<a href="/RScripts/PainDoseReg.R">Analysis: PainDoseReg.R</a>  </p>
+
+<ul>
+<li>ID: Participant code</li>
+<li>ARV: On antiretroviral therapy</li>
+<li>Order: </li>
+<li>Period: First (week 1-6) or second (week 9-15) period of treatment </li>
+<li>Treatment: P = Placebo, A = Amitriptyline</li>
+<li>T1/T2/T3: Pain intensity rating on week 1, 3 and 6 of each treatment period</li>
+<li>PainChange: Change in pain intensity between week 1 and 6 of each treatment period</li>
+<li>Dose: Maximum drug titration dose</li>
+</ul>
+
+<h3>
 <a id="change-in-pain-intensity" class="anchor" href="#change-in-pain-intensity" aria-hidden="true"><span class="octicon octicon-link"></span></a>Change in pain intensity</h3>
 
-<p><strong>Change in pain intensity between the start and end of each six-week trial period.</strong>
-<a href="/DataFiles/PainChange.csv">Data: PainChange.csv</a>  </p>
+<p><strong>Change in pain intensity between the start and end of each six-week trial period.</strong><br>
+<a href="/DataFiles/PainChange.csv">Data: PainChange.csv</a><br>
+<a href="/RScripts/PainChange.R">Analysis: PainChange.R</a> </p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -419,8 +446,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="rescue-medications" class="anchor" href="#rescue-medications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rescue medications</h3>
 
-<p><strong>Characterisation of the rescue analgesics taken by participants during each treatment period.</strong>
-<a href="/DataFiles/RescueMeds.csv">Data: RescueMeds.csv</a>  </p>
+<p><strong>Characterisation of the rescue analgesics taken by participants during each treatment period.</strong><br>
+<a href="/DataFiles/RescueMeds.csv">Data: RescueMeds.csv</a><br>
+<a href="/RScripts/RescueMeds.R">Analysis: RescueMeds.R</a> </p>
 
 <ul>
 <li>ID: Participants code</li>
@@ -439,8 +467,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="side-effects" class="anchor" href="#side-effects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Side effects</h3>
 
-<p><strong>Characterisation of side-effects reported by participants while on drug or placebo.</strong>
-<a href="/DataFiles/SideEffectscsv">Data: SideEffects.csv</a>  </p>
+<p><strong>Characterisation of side-effects reported by participants while on drug or placebo.</strong><br>
+<a href="/DataFiles/SideEffectscsv">Data: SideEffects.csv</a><br>
+<a href="/RScripts/SideEffects.R">Analysis: SideEffects.R</a> </p>
 
 <ul>
 <li>ID: Participant code</li>
@@ -456,8 +485,9 @@ neuropathy. Participants were either be on stable antiretroviral therapy, or had
 <h3>
 <a id="responder-analysis" class="anchor" href="#responder-analysis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Responder analysis</h3>
 
-<p><strong>Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(&gt;50% pain relief compared to when taking placebo).</strong>*
-<a href="/DataFiles/ResponderAnalysiscsv">Data: ResponderAnalysis.csv</a>   </p>
+<p><strong>Demographic and phenotypic characteristics of responders and non-responders to amitriptyline treatment *(&gt;50% pain relief compared to when taking placebo).</strong><br>
+<a href="/DataFiles/ResponderAnalysis.csv">Data: ResponderAnalysis.csv</a><br>
+<a href="/RScripts/ResponderAnalysis.R">Analysis: ResponderAnalysis.R</a>   </p>
 
 <ul>
 <li>ID: Participant code</li>
