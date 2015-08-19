@@ -31,7 +31,7 @@
 		- [Parallel group analysis](#parallel-group)
 		- [Number-needed-to-treat (NNT)](#nnt)
 		- [Dose titration](#dose-titration)
-		- [Dose-response](#doseresponse-analysis)
+		- [Dose-response](#dose-response-analysis)
 		- [Change in pain intensity](#change-in-pain-intensity)
 		- [Rescue medications](#rescue-medications)
 		- [Side effects](#side-effects)
