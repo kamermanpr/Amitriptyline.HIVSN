@@ -55,6 +55,7 @@ Neuropathy. **PLoS One** *10*(5):e0126297.
 *DOI:
 [10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)*  
 *PubMed PMID: [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)*  
+*Data DOI:* [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.31416.svg)](http://dx.doi.org/10.5281/zenodo.31416)
 
 --- 
 ## License
