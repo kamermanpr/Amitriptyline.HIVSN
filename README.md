@@ -1,5 +1,6 @@
 
-<script src='https://certificates.theodi.org/en/datasets/213812/certificate/badge.js'></script>
+![ODI](https://certificates.theodi.org/en/datasets/213812/certificate/badge.js)
+
 
 ## Table of Contents
 *Generated with [DocToc](http://doctoc.herokuapp.com/)*
