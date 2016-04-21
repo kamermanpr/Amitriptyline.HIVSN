@@ -4,6 +4,7 @@
 - [Amitriptyline HIV-SN](#amitriptyline-hivsn)
 	- [Bibliographic Information](#bibliographic-information)
 	- [License](#license)
+	- [Alternative repository](#alternative-repository)
 	- [Overview](#overview)
 		- [Plain English Summary](#plain-english-summary)
 			- [Background and study aims](#background-and-study-aims)
@@ -51,15 +52,20 @@ Data from a clinical trial "To determine the effectiveness of amitriptyline comp
 [[Table of Contents]](#table-of-contents)  
 Dinat N, Marinda E, Moch S, Rice AS, Kamerman PR. Randomized, Double-Blind,
 Crossover Trial of Amitriptyline for Analgesia in Painful HIV-Associated Sensory 
-Neuropathy. **PLoS One** *10*(5):e0126297.  
-*DOI:
-[10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)*  
-*PMID: [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)*  
+Neuropathy. **PLoS One** *10*(5):e0126297. *DOI:
+[10.1371/journal.pone.0126297](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126297)*, *PMID: [25974287](http://www.ncbi.nlm.nih.gov/pubmed/25974287)*  
 
 
 --- 
 ## License
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Amitriptyline.HIVSN</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://kamermanpr.github.io/Amitriptyline.HIVSN" property="cc:attributionName" rel="cc:attributionURL">Peter Kamerman</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="//kamermanpr.github.io/Amitriptyline.HIVSN" rel="dct:source">http://kamermanpr.github.io/Amitriptyline.HIVSN</a>.  
+[[Table of Contents]](#table-of-contents) 
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Amitriptyline.HIVSN</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://kamermanpr.github.io/Amitriptyline.HIVSN" property="cc:attributionName" rel="cc:attributionURL">Peter Kamerman</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/kamermanpr/Amitriptyline.HIVSN" rel="dct:source">https://github.com/kamermanpr/Amitriptyline.HIVSN</a>.
+
+---
+## Alternative repository
+[[Table of Contents]](#table-of-contents) 
+- [figshare.com](https://figshare.com/articles/Amitriptyline_HIVSN/1621304) 
 
 ---
 ## Plain English Summary
